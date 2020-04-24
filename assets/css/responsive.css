@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1400px) {
+    .dashboard-main {
+        padding: 180px 0;
+    }
+
+}
+@media only screen and (max-width: 1368px) {
+    .dashboard-main {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .dashboard-main {
+        padding: 60px 0;
+    }
+
+    .dashboard-main .side-box {
+        height: 82vh;
+    }
+
+    .dashboard-main .box-inner-side{
+        margin-left: -14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .dashboard-main {
+        padding: 0 !important;
+    }
+
+    .dashboard-main .side-box {
+        height: 95vh;
+    }
+
+    .dashboard-main .green-box {
+        padding-top: 40px;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .dashboard-main .box-white {
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        bottom: -90px;
+    }
+
+    .dashboard-main .box-inner-side {
+        left: -20px;
+    }
+
+    #hobby .header .box-side{
+        width: 150px;
+        z-index: -10;
+    }
+
+/*    plans*/
+    #plans .col-md-4{
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+    #hobby .col-6{
+        min-width: 100%;
+    }
+    #requirement .header .col-6:nth-child(1){
+        margin-bottom: 10px;
+    }
+    #requirement .header .col-6 {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .green-box h2 {
+        font-size: 1.5em;
+    }
+
+    .green-box h3 {
+        font-size: 0.8em;
+    }
+
+    .dashboard-main .side-box{
+        display: none;
+    }
+
+    .dashboard-main .green-box {
+        height: 100px;
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .dashboard-main .box-white {
+        bottom: -180px;
+        width: 95%;
+        display: none;
+    }
+
+    .dashboard-main .box-white p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .dashboard-main .box-inner-side {
+        transform: rotate(0deg);
+        bottom: 10px;
+    }
+
+
+    .box-white-mob .text{
+        padding: 10px;
+    }
+
+    .box-white-mob {
+        margin: 10px;
+        color: #333333;
+        background: white;
+        width: 100%;
+        border-radius: 4px;
+        display: block;
+    }
+    .btn-orange{
+        padding: 8px 12px;
+    }
+    #hobby .box-white{
+        width: 100%;
+    }
+
+    #hobby .header{
+        margin-top: 40px;
+    }
+
+    #requirement .req-row .col-7, #requirement .req-row .col-5{
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+    #course .header .col-6{
+        min-width:100% ;
+    }
+    #course .header .col-6 h2{
+        font-size: 23px;
+    }
+    #course .header{
+        margin-bottom: 20px;
+    }
+
+}
